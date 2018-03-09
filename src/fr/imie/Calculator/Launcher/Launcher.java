@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Launcher {
 
-	public static void main(String[] args) {
+	public static float main(String[] args) {
 		float a, b, result;
 		char operation;
 		char restart = 'N';
@@ -30,6 +30,8 @@ public class Launcher {
 		}while(restart == 'O' || restart == 'o' || restart == 'Y' || restart == 'y');		
 		
 		System.out.println("Au revoir !");
+		
+		return result;
 	}
 	public static float askFloat(String message) {
 		//déclaration de variable

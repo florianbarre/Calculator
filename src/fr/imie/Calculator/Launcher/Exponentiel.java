@@ -6,7 +6,6 @@ import java.math.MathContext;
 import java.util.Scanner;
 
 public class Exponentiel {
-	
 
 	    public static BigInteger fact(BigInteger N){
 	        BigInteger X = N;
@@ -53,8 +52,10 @@ public class Exponentiel {
 			return result;
 		}
 	    
-	    public static void main(String[] args){
+	    public static float main(String[] args){
 	    	float e;
 	       System.out.println(Math.exp(e = askFloat("Une approximation de 'e' est :")));
+	       return e;
 	    }
+	    
 }
