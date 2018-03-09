@@ -9,6 +9,7 @@ This group project aims to learn the use of GitHub and apply the java courses.
 
 **Thibaut**
 - [x] Absolute Value 
+- [x] factorial
 
 **Florian**
 - [x] basic mathematical operators : addition, substraction, multiplication, and division.
