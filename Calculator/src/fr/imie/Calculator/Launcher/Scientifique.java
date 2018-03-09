@@ -1,7 +1,8 @@
 package fr.imie.Calculator.Launcher;
 import java.lang.Math;
 
-public class Scientifique {
+public class Scientifique {{
+	
 	if(src==bPuiss){
 		aux = Double.parseDouble(txt.getText());
 		Puiss=true;
@@ -24,4 +25,5 @@ public class Scientifique {
 		text.setText(""+log);
 		
 	}
+}
 }
