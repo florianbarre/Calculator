@@ -1,4 +1,4 @@
-	package fr.imie.Calculator.scient;
+	package fr.imie.Calculator.Launcher;
 
 public class Scientifique {
   
