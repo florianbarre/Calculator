@@ -5,7 +5,7 @@ This group project aims to learn the use of GitHub and apply the java courses.
 # Tasks distribution
 
 **David**
-- [x] cosine, sinus, and tangent functions 
+- [x] cosinus, sinus, and tangent functions 
 
 **Thibaut**
 - [x] Absolute Value 
