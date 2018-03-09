@@ -27,7 +27,6 @@ import javax.swing.JTextField;
 public class Interface {
 
 	private JFrame frame;
-	private JTextField textField;
 
 	/**
 	 * Launch the application.
@@ -57,70 +56,75 @@ public class Interface {
 	 */
 	private void initialize() {
 		frame = new JFrame();
+		frame.setResizable(false);
 		frame.getContentPane().setBackground(SystemColor.textHighlight);
 		frame.getContentPane().setForeground(Color.BLACK);
-		frame.setBounds(100, 100, 496, 320);
+		frame.setBounds(100, 100, 334, 359);
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		frame.getContentPane().setLayout(null);
 		
-		textField = new JTextField();
-		textField.setBackground(SystemColor.activeCaption);
-		textField.setBounds(10, 11, 460, 20);
-		frame.getContentPane().add(textField);
-		textField.setColumns(10);
+		JPanel panel = new JPanel();
+		panel.setBackground(SystemColor.activeCaption);
+		panel.setBounds(16, 11, 297, 23);
+		frame.getContentPane().add(panel);
+		panel.setLayout(null);
+		
+		JLabel lblAllo = new JLabel("");
+		lblAllo.setBounds(0, 0, 297, 23);
+		panel.add(lblAllo);
 		
 		JButton button = new JButton("1");
 		button.setFont(new Font("Cambria Math", Font.PLAIN, 15));
-		button.setBounds(26, 216, 52, 23);
+		button.setBounds(16, 216, 62, 23);
 		frame.getContentPane().add(button);
 		
 		JButton button_1 = new JButton("2");
 		button_1.setFont(new Font("Cambria Math", Font.PLAIN, 15));
-		button_1.setBounds(100, 216, 52, 23);
+		button_1.setBounds(88, 216, 64, 23);
 		frame.getContentPane().add(button_1);
 		
 		JButton button_2 = new JButton("3");
 		button_2.setFont(new Font("Cambria Math", Font.PLAIN, 15));
-		button_2.setBounds(172, 216, 52, 23);
+		button_2.setBounds(162, 216, 62, 23);
 		frame.getContentPane().add(button_2);
 		
 		JButton button_3 = new JButton("4");
 		button_3.setFont(new Font("Cambria Math", Font.PLAIN, 15));
-		button_3.setBounds(26, 182, 52, 23);
+		button_3.setBounds(16, 182, 62, 23);
 		frame.getContentPane().add(button_3);
 		
 		JButton button_4 = new JButton("5");
 		button_4.setFont(new Font("Cambria Math", Font.PLAIN, 15));
-		button_4.setBounds(100, 182, 52, 23);
+		button_4.setBounds(88, 182, 64, 23);
 		frame.getContentPane().add(button_4);
 		
 		JButton button_5 = new JButton("6");
 		button_5.setFont(new Font("Cambria Math", Font.PLAIN, 15));
-		button_5.setBounds(172, 182, 52, 23);
+		button_5.setBounds(162, 182, 62, 23);
 		frame.getContentPane().add(button_5);
 		
 		JButton button_6 = new JButton("7");
 		button_6.setFont(new Font("Cambria Math", Font.PLAIN, 15));
-		button_6.setBounds(26, 148, 52, 23);
+		button_6.setBounds(16, 148, 62, 23);
 		frame.getContentPane().add(button_6);
 		
 		JButton button_7 = new JButton("8");
 		button_7.setFont(new Font("Cambria Math", Font.PLAIN, 15));
-		button_7.setBounds(100, 148, 52, 23);
+		button_7.setBounds(88, 148, 64, 23);
 		frame.getContentPane().add(button_7);
 		
 		JButton button_8 = new JButton("9");
 		button_8.setFont(new Font("Cambria Math", Font.PLAIN, 15));
-		button_8.setBounds(172, 148, 52, 23);
+		button_8.setBounds(162, 148, 62, 23);
 		frame.getContentPane().add(button_8);
 		
 		JButton button_9 = new JButton("0");
 		button_9.setFont(new Font("Cambria Math", Font.PLAIN, 15));
-		button_9.setBounds(26, 250, 52, 23);
+		button_9.setBounds(16, 250, 62, 23);
 		frame.getContentPane().add(button_9);
 		
 		JButton btnNewButton = new JButton(".");
-		btnNewButton.setBounds(100, 250, 52, 23);
+		btnNewButton.setBounds(88, 250, 64, 23);
 		frame.getContentPane().add(btnNewButton);
 		
 		JButton btnNewButton_1 = new JButton("+");
@@ -189,15 +193,15 @@ public class Interface {
 		frame.getContentPane().add(button_16);
 		
 		JButton btnNewButton_5 = new JButton("Del");
-		btnNewButton_5.setBounds(172, 250, 52, 23);
+		btnNewButton_5.setBounds(162, 250, 62, 23);
 		frame.getContentPane().add(btnNewButton_5);
 		
 		JButton btnNewButton_6 = new JButton("\u279D");
-		btnNewButton_6.setBounds(401, 42, 58, 39);
+		btnNewButton_6.setBounds(162, 284, 151, 39);
 		frame.getContentPane().add(btnNewButton_6);
 		
 		JButton button_17 = new JButton("\u2190");
-		button_17.setBounds(333, 42, 58, 39);
+		button_17.setBounds(16, 284, 136, 39);
 		frame.getContentPane().add(button_17);
 	}
 }
