@@ -8,7 +8,7 @@ This group project aims to learn the use of GitHub and apply the java courses.
 - [ ] cosine, sinus, and tangent functions 
 
 **Thibaut**
-- [ ] unknow task
+- [ ] connect functions to interface
 
 **Florian**
 - [x] basic mathematical operators : addition, substraction, multiplication, and division.
@@ -17,7 +17,7 @@ This group project aims to learn the use of GitHub and apply the java courses.
 **Xavier**
 - [ ] square root
 
-**Dunkan**
+**Duncan**
 - [x] Interface
 
 **Aloïs**
