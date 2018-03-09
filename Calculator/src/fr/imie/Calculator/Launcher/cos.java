@@ -16,5 +16,4 @@ public class cos {
 	      System.out.format("Le sinus de %.1f est : %.4f%n", ent, Math.cos(radian) );
 	      return radian;
 	 }
-
 }
