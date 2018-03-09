@@ -26,6 +26,7 @@ import javax.swing.GroupLayout;
 import javax.swing.GroupLayout.Alignment;
 
 import java.awt.Component;
+import java.awt.ComponentOrientation;
 
 import javax.swing.LayoutStyle.ComponentPlacement;
 import javax.swing.SwingConstants;
@@ -118,51 +119,61 @@ public class Interface {
 		panel.add(label);
 		
 		JButton button = new JButton("1");
+		button.setActionCommand("1");
 		button.setFont(new Font("Cambria Math", Font.PLAIN, 15));
 		button.setBounds(16, 216, 62, 23);
 		frame.getContentPane().add(button);
 		
 		JButton button_1 = new JButton("2");
+		button_1.setActionCommand("2");
 		button_1.setFont(new Font("Cambria Math", Font.PLAIN, 15));
 		button_1.setBounds(88, 216, 64, 23);
 		frame.getContentPane().add(button_1);
 		
 		JButton button_2 = new JButton("3");
+		button_2.setActionCommand("3");
 		button_2.setFont(new Font("Cambria Math", Font.PLAIN, 15));
 		button_2.setBounds(162, 216, 62, 23);
 		frame.getContentPane().add(button_2);
 		
 		JButton button_3 = new JButton("4");
+		button_3.setActionCommand("4");
 		button_3.setFont(new Font("Cambria Math", Font.PLAIN, 15));
 		button_3.setBounds(16, 182, 62, 23);
 		frame.getContentPane().add(button_3);
 		
 		JButton button_4 = new JButton("5");
+		button_4.setActionCommand("5");
 		button_4.setFont(new Font("Cambria Math", Font.PLAIN, 15));
 		button_4.setBounds(88, 182, 64, 23);
 		frame.getContentPane().add(button_4);
 		
 		JButton button_5 = new JButton("6");
+		button_5.setActionCommand("6");
 		button_5.setFont(new Font("Cambria Math", Font.PLAIN, 15));
 		button_5.setBounds(162, 182, 62, 23);
 		frame.getContentPane().add(button_5);
 		
 		JButton button_6 = new JButton("7");
+		button_6.setActionCommand("7");
 		button_6.setFont(new Font("Cambria Math", Font.PLAIN, 15));
 		button_6.setBounds(16, 148, 62, 23);
 		frame.getContentPane().add(button_6);
 		
 		JButton button_7 = new JButton("8");
+		button_7.setActionCommand("8");
 		button_7.setFont(new Font("Cambria Math", Font.PLAIN, 15));
 		button_7.setBounds(88, 148, 64, 23);
 		frame.getContentPane().add(button_7);
 		
 		JButton button_8 = new JButton("9");
+		button_8.setActionCommand("9");
 		button_8.setFont(new Font("Cambria Math", Font.PLAIN, 15));
 		button_8.setBounds(162, 148, 62, 23);
 		frame.getContentPane().add(button_8);
 		
 		JButton button_9 = new JButton("0");
+		button_9.setActionCommand("0");
 		button_9.setFont(new Font("Cambria Math", Font.PLAIN, 15));
 		button_9.setBounds(16, 250, 62, 23);
 		frame.getContentPane().add(button_9);
@@ -243,5 +254,242 @@ public class Interface {
 		JButton button_17 = new JButton("\u2190");
 		button_17.setBounds(16, 284, 136, 39);
 		frame.getContentPane().add(button_17);
+		
+		button.addActionListener(new ActionListener() {
+			
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				// TODO Auto-generated method stub
+				label.setText(label.getText() + "1");
+			}
+		});
+		
+		button_1.addActionListener(new ActionListener() {
+			
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				// TODO Auto-generated method stub
+				label.setText(label.getText() + "2");
+			}
+		});
+		
+
+		button_2.addActionListener(new ActionListener() {
+			
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				// TODO Auto-generated method stub
+				label.setText(label.getText() + "3");
+			}
+		});
+		
+		button_3.addActionListener(new ActionListener() {
+			
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				// TODO Auto-generated method stub
+				label.setText(label.getText() + "4");
+			}
+		});
+		
+		button_4.addActionListener(new ActionListener() {
+			
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				// TODO Auto-generated method stub
+				label.setText(label.getText() + "5");
+			}
+		});
+		
+		button_5.addActionListener(new ActionListener() {
+			
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				// TODO Auto-generated method stub
+				label.setText(label.getText() + "6");
+			}
+		});
+		
+		button_6.addActionListener(new ActionListener() {
+			
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				// TODO Auto-generated method stub
+				label.setText(label.getText() + "7");
+			}
+		});
+		
+		button_7.addActionListener(new ActionListener() {
+			
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				// TODO Auto-generated method stub
+				label.setText(label.getText() + "8");
+			}
+		});
+		
+		button_8.addActionListener(new ActionListener() {
+			
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				// TODO Auto-generated method stub
+				label.setText(label.getText() + "9");
+			}
+		});
+		
+		button_9.addActionListener(new ActionListener() {
+			
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				// TODO Auto-generated method stub
+				label.setText(label.getText() + "0");
+			}
+		});
+		
+		btnNewButton.addActionListener(new ActionListener() {
+			
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				// TODO Auto-generated method stub
+				label.setText(label.getText() + ",");
+			}
+		});
+		
+		btnNewButton_1.addActionListener(new ActionListener() {
+			
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				// TODO Auto-generated method stub
+				label.setText(label.getText() + "+");
+			}
+		});
+
+		button_10.addActionListener(new ActionListener() {
+			
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				// TODO Auto-generated method stub
+				label.setText(label.getText() + "-");
+			}
+		});
+		
+		button_11.addActionListener(new ActionListener() {
+					
+					@Override
+					public void actionPerformed(ActionEvent e) {
+						// TODO Auto-generated method stub
+						label.setText(label.getText() + "/");
+					}
+				});
+		
+		button_12.addActionListener(new ActionListener() {
+			
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				// TODO Auto-generated method stub
+				label.setText(label.getText() + "*");
+			}
+		});
+		
+		button_13.addActionListener(new ActionListener() {
+			
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				// TODO Auto-generated method stub
+				label.setText(label.getText() + "(");
+			}
+		});
+		
+		button_14.addActionListener(new ActionListener() {
+			
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				// TODO Auto-generated method stub
+				label.setText(label.getText() + ")");
+			}
+		});
+		
+		button_15.addActionListener(new ActionListener() {
+			
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				// TODO Auto-generated method stub
+				label.setText(label.getText() + "^");
+			}
+		});
+		
+		btnNewButton_2.addActionListener(new ActionListener() {
+			
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				// TODO Auto-generated method stub
+				label.setText(label.getText() + "ln(");
+			}
+		});
+		
+		btnSin.addActionListener(new ActionListener() {
+			
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				// TODO Auto-generated method stub
+				label.setText(label.getText() + "Sin(");
+			}
+		});
+		
+		btnCos.addActionListener(new ActionListener() {
+					
+					@Override
+					public void actionPerformed(ActionEvent e) {
+						// TODO Auto-generated method stub
+						label.setText(label.getText() + "Cos(");
+					}
+				});
+		
+		btnTan.addActionListener(new ActionListener() {
+			
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				// TODO Auto-generated method stub
+				label.setText(label.getText() + "Tan(");
+			}
+		});
+		
+		btnLog.addActionListener(new ActionListener() {
+			
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				// TODO Auto-generated method stub
+				label.setText(label.getText() + "Log(");
+			}
+		});
+		
+		btnExp.addActionListener(new ActionListener() {
+			
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				// TODO Auto-generated method stub
+				label.setText(label.getText() + "Exp(");
+			}
+		});
+		
+		btnNewButton_3.addActionListener(new ActionListener() {
+			
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				// TODO Auto-generated method stub
+				label.setText(label.getText() + "Sqr(");
+			}
+		});
+
+		button_16.addActionListener(new ActionListener() {
+			
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				// TODO Auto-generated method stub
+				label.setText("");
+			}
+		});
+		
 	}
+	
 }
