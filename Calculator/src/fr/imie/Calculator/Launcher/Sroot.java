@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 public class Sroot{
 	
-	public static void main(String[] args) {
+	public static double main(String[] args) {
 	    double number, t, squareRoot;
 	    Scanner input = new Scanner(System.in);
 	    number = input.nextDouble();
@@ -15,7 +15,8 @@ public class Sroot{
 	    }
 	    while ((t - squareRoot) != 0);
 	
-	    System.out.println(squareRoot);
 	    input.close();
+	    
+	    return squareRoot
 	}
 }
