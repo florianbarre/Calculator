@@ -8,7 +8,7 @@ This group project aims to learn the use of GitHub and apply the java courses.
 - [ ] cosine, sinus, and tangent functions 
 
 **Thibaut**
-- [ ] connect functions to interface
+- [x] Absolute Value 
 
 **Florian**
 - [x] basic mathematical operators : addition, substraction, multiplication, and division.
