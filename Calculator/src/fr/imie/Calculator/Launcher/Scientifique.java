@@ -1,4 +1,5 @@
-	package fr.imie.Calculator.Launcher;
+package fr.imie.Calculator.Launcher;
+import java.lang.Math;
 
 public class Scientifique {
 	if(src==bPuiss){
