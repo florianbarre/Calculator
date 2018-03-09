@@ -5,15 +5,15 @@ This group project aims to learn the use of GitHub and apply the java courses.
 # Tasks distribution
 
 **David**
-- [x] cosinus, sinus, and tangent functions 
+- [x] Cosinus, sinus, and tangent functions 
 
 **Thibaut**
 - [x] Absolute Value 
-- [x] factorial
+- [x] Factorial
 
 **Florian**
-- [x] basic mathematical operators : addition, substraction, multiplication, and division.
-- [x] exponential function
+- [x] Basic mathematical operators : addition, substraction, multiplication, and division.
+- [x] Exponential function
 
 **Xavier**
 - [x] Sroot : sqare root function
@@ -21,8 +21,11 @@ This group project aims to learn the use of GitHub and apply the java courses.
 **Duncan**
 - [x] Interface
 
+**Melvyn**
+- [x] Inital creation of the README.md
+
 **Aloïs**
-- [ ] logarithm function
+- [ ] Logarithm function
 
 **Hugo**
-- [x] exponential function
+- [x] Exponential function
