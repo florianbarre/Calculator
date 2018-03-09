@@ -16,7 +16,7 @@ This group project aims to learn the use of GitHub and apply the java courses.
 - [x] exponential function
 
 **Xavier**
-- [ ] square root
+- [x] Sroot : sqare root function
 
 **Duncan**
 - [x] Interface
