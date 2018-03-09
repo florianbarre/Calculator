@@ -12,7 +12,7 @@ This group project aims to learn the use of GitHub and apply the java courses.
 
 **Florian**
 - [x] basic mathematical operators : addition, substraction, multiplication, and division.
-- [ ] logarithm function
+- [ ] exponential function
 
 **Xavier**
 - [ ] square root
@@ -21,4 +21,4 @@ This group project aims to learn the use of GitHub and apply the java courses.
 - [x] Interface
 
 **Aloïs**
- - [ ] unknow task
+- [ ] logarithm function
