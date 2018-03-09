@@ -23,5 +23,6 @@ This group project aims to learn the use of GitHub and apply the java courses.
 
 **Aloïs**
 - [ ] logarithm function
+
 **Hugo**
 -[x] exponential function
