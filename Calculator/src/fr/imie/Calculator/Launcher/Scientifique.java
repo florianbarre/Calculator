@@ -17,13 +17,10 @@ public class Scientifique {
 			txt.setText(""+res);
 		}
 	}
-	else if() {
+	else if(src==bLog) {
+		double aux = Double.parseDouble(txt.getText());
+		double log = Math.log(var);
+		text.setText(""+log);
 		
 	}
-	
 }
-
-
-
-
-
