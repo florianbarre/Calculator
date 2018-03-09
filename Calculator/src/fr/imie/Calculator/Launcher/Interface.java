@@ -1,7 +1,49 @@
 package fr.imie.Calculator.Launcher;
 
 import java.awt.EventQueue;
+import java.awt.BorderLayout;
+import java.awt.EventQueue;
 
+import javax.swing.Box;
+import javax.swing.JFrame;
+import javax.swing.JPanel;
+import javax.swing.border.EmptyBorder;
+import javax.swing.JButton;
+
+import java.awt.event.ActionListener;
+import java.awt.event.ActionEvent;
+import java.awt.event.ItemEvent;
+import java.awt.event.ItemListener;
+
+import javax.swing.JTextField;
+import javax.swing.JLabel;
+
+import java.awt.FlowLayout;
+
+
+
+import javax.swing.GroupLayout;
+import javax.swing.GroupLayout.Alignment;
+
+import java.awt.Component;
+
+import javax.swing.LayoutStyle.ComponentPlacement;
+import javax.swing.SwingConstants;
+import javax.swing.JDesktopPane;
+
+
+
+import javax.swing.JSeparator;
+
+import java.awt.Color;
+
+import javax.swing.JCheckBox;
+import javax.swing.JRadioButton;
+import javax.swing.border.TitledBorder;
+import javax.swing.JSpinner;
+import javax.swing.SpinnerNumberModel;
+
+import java.awt.Font;
 import javax.swing.JFrame;
 import javax.swing.JButton;
 import java.awt.BorderLayout;
@@ -23,6 +65,8 @@ import javax.swing.SwingConstants;
 import java.awt.SystemColor;
 import java.awt.Font;
 import javax.swing.JTextField;
+import java.awt.Label;
+import com.jgoodies.forms.factories.DefaultComponentFactory;
 
 public class Interface {
 
@@ -54,7 +98,7 @@ public class Interface {
 	/**
 	 * Initialize the contents of the frame.
 	 */
-	private void initialize() {
+	public void initialize() {
 		frame = new JFrame();
 		frame.setResizable(false);
 		frame.getContentPane().setBackground(SystemColor.textHighlight);
@@ -69,9 +113,9 @@ public class Interface {
 		frame.getContentPane().add(panel);
 		panel.setLayout(null);
 		
-		JLabel lblAllo = new JLabel("");
-		lblAllo.setBounds(0, 0, 297, 23);
-		panel.add(lblAllo);
+		Label label = new Label("");
+		label.setBounds(0, 0, 297, 22);
+		panel.add(label);
 		
 		JButton button = new JButton("1");
 		button.setFont(new Font("Cambria Math", Font.PLAIN, 15));
@@ -179,10 +223,6 @@ public class Interface {
 		JButton btnExp = new JButton("Exp");
 		btnExp.setBounds(162, 46, 63, 23);
 		frame.getContentPane().add(btnExp);
-		
-		JButton btnX = new JButton("| x |");
-		btnX.setBounds(250, 46, 63, 23);
-		frame.getContentPane().add(btnX);
 		
 		JButton btnNewButton_3 = new JButton("\u221Ax");
 		btnNewButton_3.setBounds(250, 80, 63, 23);
