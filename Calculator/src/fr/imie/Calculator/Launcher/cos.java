@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class cos {
 	
-	 public static void main(String args[]) {
+	 public static double main(String args[]) {
 		   
 		  Scanner user = new Scanner(System.in); 
 
@@ -14,6 +14,7 @@ public class cos {
 	      double radian = Math.toRadians(ent);
 	      
 	      System.out.format("Le sinus de %.1f est : %.4f%n", ent, Math.cos(radian) );
+	      return radian;
 	 }
 
 }
